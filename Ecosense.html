@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>A.I Powered ChessBoard</title>
+    <title>Ecosense</title>
     <meta name="description" content="Creative CV is a HTML resume template for professionals. Built with Bootstrap 4, Now UI Kit and FontAwesome, this modern and responsive design template is perfect to showcase your portfolio, skils and experience."/>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
@@ -17,7 +17,7 @@
       <div class="profile-page sidebar-collapse">
         <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
           <div class="container">
-            <div class="navbar-translate"><a class="navbar-brand" href="#" rel="tooltip">A.I Powered ChessBoard</a>
+            <div class="navbar-translate"><a class="navbar-brand" href="#" rel="tooltip">Ecosense</a>
               <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span class="navbar-toggler-bar bar3"></span></button>
             </div>
             <div class="collapse navbar-collapse justify-content-end" id="navigation">
@@ -36,11 +36,11 @@
 <div class="profile-page">
   <div class="wrapper">
     <div class="page-header page-header-small" filter-color="blue">
-      <div class="page-header-image" data-parallax="true" style="background-image: url('images/project-1.jpg');"></div>
+      <div class="page-header-image" data-parallax="true" style="background-image: url('images/project-2.jpg');"></div>
       <div class="container">
         <div class="content-center">
-          <div class="h2 title">A.I Powered ChessBoard</div>
-          <p class="category text-white">A Hardware project which playes against an opponent.</H1></H2></p>
+          <div class="h2 title">Ecosense</div>
+          <p class="category text-white">An A/C controller Dashboard with Machine Learning to maintain ambient temperature.</H1></H2></p>
         </div>
       </div>
     </div>
@@ -53,32 +53,20 @@
         <div class="col-lg-6 col-md-12">
           <div class="card-body">
             <div class="h4 mt-0 title">Summary</div>
-            <p style="text-align: justify">&emsp;A common issue among chess enthusiasts is finding an opponent to play against in a
-                physical board. They therefore move to online play/chess apps. But as any serious
-                chess player would agree, playing on a physical board has a lot of perks that
-                software and online games can’t provide. Given an option between the two, people
-                almost always choose to play chess using a physical board rather than a software.
-                The AI powered Chessboard provides a way through which the user can get the best
-                of both worlds. They don’t need to find an opponent to play against and they can
-                still play in a physical chessboard.
-                <br><br>&emsp;To achieve this goal, a robotic arm that can move in 2 axes has been
-                designed. This mechanism contains a magnetic head that can move the pieces
-                under–the–hood. This is possible because the pieces are also magnetic. To detect the
-                user moves, a sensor matrix has been designed. This sensor matrix contains of 64
-                sensors – one for each cell of the board. This matrix lies directly below the
-                chessboard and can detect changes in magnetic field and from these changes the user
-                move is calculated.</p>
+            <p style="text-align: justify">&emsp; Ecosense is a Dashboard with which you can control your A/C from anywhere in the house. This is a small controller that needs to be installed for the A/C unit and using this you can control it both through the console and the mobile phone anywhere from the house.
+                <br><br>&emsp;The Dashboard has a dial system to adjust the system. The ambient temperature is predicted by a neural network based on diffrent factors like outside temperature, room temperature, humidity etc.
+               There is also a facility of viewing temperature and energy statistics in form of graphs in the Dashboard. We hope to help people use their AC units in a much efficient way and gain energy savings while staying confortably in home.</p>
             </div>
         </div>
         <div class="col-lg-6 col-md-12">
           <div class="card-body">
             <div class="h4 mt-0 title">Goals</div>
             <div>
-              <li style="padding-top: 2em">To design a board that the user can play against</li>
-              <li style="padding-top: 2em">Not to compromise on the look and feel of the chessboard</li>
-              <li style="padding-top: 2em"> a mechanism to move pieces under-the-hood</li>
-              <li style="padding-top: 2em"> a mechanism to sense the positions of the pieces under-the-hood</li>
-              <li style="padding-top: 2em">Design an AI that can decide on the next best move from the current board state.</li>
+              <li style="padding-top: 2em">To design a controller that can control the temperature of the machine</li>
+              <li style="padding-top: 2em">To Design a central server system for the home for controlling temperature</li>
+              <li style="padding-top: 2em">Design a Dashboard to control the temperature and view statistics</li>
+              <li style="padding-top: 2em">Build a neural network to predict the ambient temperature of the room based various features</li>
+              <li style="padding-top: 2em">User should have the complete control and no changes are to be done without a consent from the user.</li>
             </div>
           </div>
         </div>
@@ -106,21 +94,19 @@
                 <div class="col-md-9">
                   <div class="card-body">
                       <h5>Hardware:</h5>
-                      <li><b>Motors:</b> DC motor(load: 5kg,Output: 9 - 12 V)</li>
-                      <li><b>Motor Drivers: </b>L293D</li>
-                      <li><b>Diodes:</b> DN4148</li>
-                      <li><b>Reed switch:</b> Reed switches (15 mm diameter)</li>
-                      <li><b>Power Supply: </b>Rechargeable batteries (Output 9V)</li>                  
+                      <li><b>Sensors:</b> DHT 11 Temperature and Humidity sensors</li>
+                      <li><b>Display:</b> 16x2 LCD</li>                 
                       <li><b>Prototype Board:</b> Raspberry Pi 2 model B</li>
                   </div>
                 </div>
                 <div class="col-md-9">
                   <div class="card-body">
                       <h5>Software:</h5>
-                     <li><b>IDE:</b> Python IDLE, Dev C++</li>
-                     <li><b>Languages:</b> C, Python</li>
-                     <li><b>Packages:</b> Delegator.py, Servo.h. Rpi.GPIO</li>
-                     <li><b>misc:</b> Arena GUI</li>
+                     <li><b>IDE:</b> Python IDLE, VS code</li>
+                     <li><b>Languages:</b> C, HTML5, Bootstrap, JQuery, Python, SQL</li>
+                     <li><b>Packages:</b> scikit-learn, numpy, pandas</li>
+                     <li><b>server:</b> Flask</li>
+                     <li><b>misc:</b> SQLite3, DB Browser for SQLite, Angry IP Scanner</li>
                   </div>
                 </div>
               </div>
@@ -131,15 +117,21 @@
         <div class="row">
           <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
             <div class="card-body cc-education-header">
-              <div class="h5">Flow Chart</div><br>
-              <p>
-                The Entire Flow of the Project is Shown here.
+              <div class="h5">Architecture of the System</div><br>
+              <p style="text-align: justify">
+                The home automation will have hardware devices as well as a user interface that
+enables the family to control the devices. Thus the best architectural style for this
+system would be a client – server architecture. Each of the devices would be a client to
+a central server located in the home. This central server will have all the important
+logic. The client can execute its functions by remote procedural calls (RPC). All the
+clients know the server ID but the server doesn’t need to know how many clients are
+present.
               </p>
             </div>
           </div>
           <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
             <div class="card-body">
-              <img src="images/flow-Chart.png">
+              <img src="images/architecture.png">
             </div>
           </div>
         </div>
@@ -148,15 +140,19 @@
         <div class="row">
           <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
             <div class="card-body cc-education-header">
-              <div class="h5">Circuit Diagram</div><br>
-              <p>
-                The entire layout of the components in the project is shown here
+              <div class="h5">Dashboard</div><br>
+              <p style="text-align: justify">
+                The room temperature monitoring and control interface was designed to be a website
+that is hosted by the server. It would basically serve as a digital remote control to the
+heating and cooling system. Therefore to aid its primary function – to set the
+temperature, a dial was designed using HTML5, CSS, Bootstrap and Javascript. This will
+be the first thing the user sees when he logs into the website.
               </p>
             </div>
           </div>
           <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
             <div class="card-body">
-              <img src="images/circuit-diagram.png">
+              <img src="images/DashBoard.png">
             </div>
           </div>
         </div>
